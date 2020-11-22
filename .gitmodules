@@ -1,3 +1,7 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
-	url = https://github.com/budparr/gohugo-theme-ananke.git
+	url = https://github.com/ronja-tutorials/gohugo-theme-ananke.git
+[submodule "public"]
+	path = public
+	url = https://github.com/ronja-tutorials/ronja-tutorials.github.io.git
+	branch = gh-pages
