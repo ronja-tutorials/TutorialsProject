@@ -1,9 +1,9 @@
-baseURL = "https://ronja-tutorials.com"
+baseURL = "https://www.ronja-tutorials.com"
 languageCode = "en-us"
 title = "Ronja's tutorials"
 theme = "ananke"
 assetDir = "static"
-disqusShortname = "disqus_vlgXjcPhg1"
+disqusShortname = "ronja-tutorials"
 
 [markup]
   [markup.highlight]
