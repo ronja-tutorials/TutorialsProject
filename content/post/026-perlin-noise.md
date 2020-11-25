@@ -165,13 +165,13 @@ float perlinNoise(float3 value){
     float interpolatorY = easeInOut(fraction.y);
     float interpolatorZ = easeInOut(fraction.z);
 
-    float3 cellNoiseZ[2];
+    float cellNoiseZ[2];
     [unroll]
     for(int z=0;z<=1;z++){
-        float3 cellNoiseY[2];
+        float cellNoiseY[2];
         [unroll]
         for(int y=0;y<=1;y++){
-            float3 cellNoiseX[2];
+            float cellNoiseX[2];
             [unroll]
             for(int x=0;x<=1;x++){
                 float3 cell = floor(value) + float3(x, y, z);
@@ -183,7 +183,7 @@ float perlinNoise(float3 value){
         }
         cellNoiseZ[z] = lerp(cellNoiseY[0], cellNoiseY[1], interpolatorY);
     }
-    float3 noise = lerp(cellNoiseZ[0], cellNoiseZ[1], interpolatorZ);
+    float noise = lerp(cellNoiseZ[0], cellNoiseZ[1], interpolatorZ);
     return noise;
 }
 ```
@@ -453,13 +453,13 @@ Shader "Tutorial/026_perlin_noise/3d" {
 			float interpolatorY = easeInOut(fraction.y);
 			float interpolatorZ = easeInOut(fraction.z);
 
-			float3 cellNoiseZ[2];
+			float cellNoiseZ[2];
 			[unroll]
 			for(int z=0;z<=1;z++){
-				float3 cellNoiseY[2];
+				float cellNoiseY[2];
 				[unroll]
 				for(int y=0;y<=1;y++){
-					float3 cellNoiseX[2];
+					float cellNoiseX[2];
 					[unroll]
 					for(int x=0;x<=1;x++){
 						float3 cell = floor(value) + float3(x, y, z);
@@ -471,7 +471,7 @@ Shader "Tutorial/026_perlin_noise/3d" {
 				}
 				cellNoiseZ[z] = lerp(cellNoiseY[0], cellNoiseY[1], interpolatorY);
 			}
-			float3 noise = lerp(cellNoiseZ[0], cellNoiseZ[1], interpolatorZ);
+			float noise = lerp(cellNoiseZ[0], cellNoiseZ[1], interpolatorZ);
 			return noise;
 		}
 
@@ -533,13 +533,13 @@ Shader "Tutorial/026_perlin_noise/special" {
 			float interpolatorY = easeInOut(fraction.y);
 			float interpolatorZ = easeInOut(fraction.z);
 
-			float3 cellNoiseZ[2];
+			float cellNoiseZ[2];
 			[unroll]
 			for(int z=0;z<=1;z++){
-				float3 cellNoiseY[2];
+				float cellNoiseY[2];
 				[unroll]
 				for(int y=0;y<=1;y++){
-					float3 cellNoiseX[2];
+					float cellNoiseX[2];
 					[unroll]
 					for(int x=0;x<=1;x++){
 						float3 cell = floor(value) + float3(x, y, z);
@@ -551,7 +551,7 @@ Shader "Tutorial/026_perlin_noise/special" {
 				}
 				cellNoiseZ[z] = lerp(cellNoiseY[0], cellNoiseY[1], interpolatorY);
 			}
-			float3 noise = lerp(cellNoiseZ[0], cellNoiseZ[1], interpolatorZ);
+			float noise = lerp(cellNoiseZ[0], cellNoiseZ[1], interpolatorZ);
 			return noise;
 		}
 
