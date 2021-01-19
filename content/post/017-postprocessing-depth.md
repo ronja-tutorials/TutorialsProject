@@ -1,5 +1,7 @@
 ---
 date: "2018-07-01T00:00:00Z"
+aliases:
+  - /2018/07/01/postprocessing-depth.html
 image: /assets/images/posts/017/Result.gif
 title: Postprocessing with the Depth Texture
 ---

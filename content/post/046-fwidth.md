@@ -1,5 +1,7 @@
 ---
 date: "2019-11-29T00:00:00Z"
+aliases:
+  - /2019/11/29/fwidth.html
 image: /assets/images/posts/046/fire.gif
 title: Partial Derivatives (fwidth)
 ---
@@ -111,7 +113,7 @@ fixed4 frag(v2f i) : SV_TARGET{
 
 One nice use for step is to make procedural fire. I based this example loosely on [Febucci's](https://twitter.com/febucci) [fire shader](https://www.febucci.com/2019/05/fire-shader/).
 
-We shift the texture UVs based on the time, and read from a noise texture, as the gradient how "intense" a fire is at any position, I'll use a square of the inverse uv y component as that gets us a good amount fire with my noise texture (I used layered perlin noise, generated via [the texture baking tool I made a tutorial about]({{< ref "post/030-baking_shaders" >}})). Then I generated the cutoff values for the texture, for the shape I used the step between the noise texture and the gradient and for the edges between the colors I did the same but with some offset based on adjustable properties. To combine those colors we can start by making everything the "outer" color and then interpolating to the "inner" colors wherever they are visible.
+We shift the texture UVs based on the time, and read from a noise texture, as the gradient how "intense" a fire is at any position, I'll use a square of the inverse uv y component as that gets us a good amount fire with my noise texture (I used layered perlin noise, generated via [the texture baking tool I made a tutorial about]({{< ref "post/030-baking-shaders" >}})). Then I generated the cutoff values for the texture, for the shape I used the step between the noise texture and the gradient and for the edges between the colors I did the same but with some offset based on adjustable properties. To combine those colors we can start by making everything the "outer" color and then interpolating to the "inner" colors wherever they are visible.
 
 I also modified the aaStep here to interpolate over 2 pixels instead of one by not dividing the result of the fwidth function by 2, this is something you can play around with and see what feels best for your use case.
 

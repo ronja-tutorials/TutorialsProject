@@ -1,5 +1,7 @@
 ---
 date: "2020-07-23T00:00:00Z"
+aliases:
+  - /2020/07/23/sprite-outlines.html
 image: /assets/images/posts/049/Properties.gif
 title: Sprite Outlines
 ---

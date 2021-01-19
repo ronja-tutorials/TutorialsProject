@@ -1,5 +1,7 @@
 ---
 date: "2018-07-21T00:00:00Z"
+aliases:
+  - /2018/07/21/hull-outline.html
 image: /assets/images/posts/020/Result.png
 title: Hull Outlines
 ---

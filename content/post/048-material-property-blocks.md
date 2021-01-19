@@ -1,5 +1,7 @@
 ---
 date: "2020-02-11T00:00:00Z"
+aliases:
+  - /2020/02/11/material-property-blocks.html
 image: /assets/images/posts/048/BallPit.png
 title: Instancing and Material Property Blocks
 ---

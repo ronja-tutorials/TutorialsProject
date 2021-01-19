@@ -1,6 +1,7 @@
 ---
 date: "2019-06-21T00:00:00Z"
-hidden: false
+aliases:
+  - /2019/06/21/spheretracing-basics.html
 image: /assets/images/posts/043/Result.png
 title: Spheretracing Basics
 ---

@@ -1,11 +1,12 @@
 ---
 date: "2018-11-10T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/11/10/2d-sdf-basics.html
 image: /assets/images/posts/034/Result.gif
 title: 2D Signed Distance Field Basics
 ---
 
-So far we mostly used polygonal meshes to represent shapes. While meshes are the easiest to render and the most versatile, there are other ways to represent shapes in 2d and 3d. One way which is used frequently is signed distance fields. Signed distance fields allow for cheaper raytracing, smoothly letting different shapes flow into each other and saving lower resolution textures for higher quality images.
+So far we mostly used polygonal meshes to represent shapes. While meshes are the easiest to render and the most versatile, there are other ways to represent shapes in 2d and 3d. One way which is used frequently is signed distance fields(or SDF). Signed distance fields allow for cheaper raytracing, smoothly letting different shapes flow into each other and saving lower resolution textures for higher quality images.
 
 We're going to start by generating signed distance fields with functions in 2 dimensions, but later continue by generating and using them in 3d. I'm going to use the worldspace coordinates to make everything as independent from scaling and uv coordinates as possible, so if you're unsure how that works, look at [this tutorial about planar mapping]({{< ref "post/008-planar-mapping" >}}) which explains what's happening.
 

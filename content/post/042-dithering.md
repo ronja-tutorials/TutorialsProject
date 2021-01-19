@@ -1,6 +1,7 @@
 ---
 date: "2019-05-11T00:00:00Z"
-hidden: false
+aliases:
+  - /2019/05/11/dithering.html
 image: /assets/images/posts/042/Result.gif
 title: Dithering
 ---

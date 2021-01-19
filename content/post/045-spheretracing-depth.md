@@ -1,6 +1,7 @@
 ---
 date: "2019-10-14T00:00:00Z"
-hidden: false
+aliases:
+  - /2019/10/14/spheretracing-depth.html
 image: /assets/images/posts/045/Result.png
 title: Handling Depth for Spheretracing
 ---

@@ -1,6 +1,7 @@
 ---
 date: "2018-10-06T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/10/06/tiling-noise.html
 image: /assets/images/posts/029/Result.png
 title: Tiling Noise
 ---

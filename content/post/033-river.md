@@ -1,6 +1,7 @@
 ---
 date: "2018-11-03T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/11/03/river.html
 image: /assets/images/posts/033/Result.gif
 title: Flowing River
 ---
@@ -115,7 +116,7 @@ For this to word it's important to set up your river mesh the correct way! The c
 
 ![](/assets/images/posts/033/RiverUnwrap.gif)
 
-For the specs texture, I did a cutoff on a perlin noise and baked that into a texture via my [material baking tool]({{ site.baseurl }}{% post_url 2018-10-13-baking_shaders%}). Here is the texture:
+For the specs texture, I did a cutoff on a perlin noise and baked that into a texture via my [material baking tool]({{ site.baseurl }}{% post_url 2018-10-13-baking-shaders%}). Here is the texture:
 
 ![](/assets/images/posts/033/RiverSpecs1.png)
 

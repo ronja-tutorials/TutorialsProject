@@ -1,6 +1,7 @@
 ---
 date: "2019-03-02T00:00:00Z"
-hidden: false
+aliases:
+  - /2019/03/02/halftone-shading.html
 image: /assets/images/posts/040/Result.png
 title: Halftone Shading
 ---

@@ -1,6 +1,7 @@
 ---
 date: "2018-10-20T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/10/20/single-step-toon.html
 image: /assets/images/posts/031/Result.gif
 title: Single Step Toon Light
 ---

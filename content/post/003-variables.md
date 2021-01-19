@@ -1,5 +1,7 @@
 ---
 date: "2018-03-22T00:00:00Z"
+aliases:
+  - /2018/03/22/variables.html
 image: /assets/images/posts/003/Result.png
 title: Variables
 ---

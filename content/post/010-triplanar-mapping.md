@@ -1,5 +1,7 @@
 ---
 date: "2018-05-11T00:00:00Z"
+aliases:
+  - /2018/05/11/triplanar-mapping.html
 image: /assets/images/posts/010/Result.gif
 title: Triplanar Mapping
 ---

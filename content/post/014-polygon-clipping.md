@@ -1,5 +1,7 @@
 ---
 date: "2018-06-10T00:00:00Z"
+aliases:
+  - /2018/06/10/polygon-clipping.html
 image: /assets/images/posts/014/Result.gif
 title: Polygon Clipping
 ---

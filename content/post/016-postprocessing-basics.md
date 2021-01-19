@@ -1,5 +1,7 @@
 ---
 date: "2018-06-23T00:00:00Z"
+aliases:
+  - /2018/06/23/postprocessing-basics.html
 image: /assets/images/posts/016/Result.jpg
 title: Postprocessing Basics
 ---

@@ -1,6 +1,7 @@
 ---
 date: "2019-04-16T00:00:00Z"
-hidden: false
+aliases:
+  - /2019/04/16/hsv-colorspace.html
 image: /assets/images/posts/041/Result.gif
 title: HSV Color Space
 ---
@@ -129,7 +130,7 @@ fixed4 frag(v2f i) : SV_TARGET{
 
 ![](/assets/images/posts/041/MonaCycle.gif)
 
-While with the hue you can just add values where a change of 1 results in the same hue again, 0.5 is the opposite hue etc, the saturation and value should usually be kept between 0 and 1. To adjust them we can use power operator. Taking the `N`th power of the saturation or value where `N` is above 1 makes the color less saturated/darker. Taking the `N`th power with `N` between 0 and 1 makes the color more saturated/brighter. With this knowledge we can make a shader that adjusts those properties in the shader. It's important to keep in mind that you shouldn't do that just to statically adjust a image though, since the conversions as well as taking the power of a number are pretty expensive operations, instead consider to change the image in a image manipulation program or if you want to use shaders, via [shadron](https://www.arteryengine.com/shadron/) or [the texture baking tool I wrote a tutorial on]({{< ref "post/030-baking_shaders" >}}).
+While with the hue you can just add values where a change of 1 results in the same hue again, 0.5 is the opposite hue etc, the saturation and value should usually be kept between 0 and 1. To adjust them we can use power operator. Taking the `N`th power of the saturation or value where `N` is above 1 makes the color less saturated/darker. Taking the `N`th power with `N` between 0 and 1 makes the color more saturated/brighter. With this knowledge we can make a shader that adjusts those properties in the shader. It's important to keep in mind that you shouldn't do that just to statically adjust a image though, since the conversions as well as taking the power of a number are pretty expensive operations, instead consider to change the image in a image manipulation program or if you want to use shaders, via [shadron](https://www.arteryengine.com/shadron/) or [the texture baking tool I wrote a tutorial on]({{< ref "post/030-baking-shaders" >}}).
 
 The fragment function of a shader adjusting all components of the HSV color could look like this.
 

@@ -1,7 +1,9 @@
 ---
 date: "2018-08-27T00:00:00Z"
+aliases:
+  - /2018/08/27/postprocessing-blur.html
 image: /assets/images/posts/023/Result.gif
-title: Blur Postprocessing Effect
+title: Blur Postprocessing Effect (Box and Gauss)
 ---
 
 ## Summary

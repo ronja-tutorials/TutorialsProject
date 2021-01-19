@@ -1,5 +1,7 @@
 ---
 date: "2018-08-06T00:00:00Z"
+aliases:
+  - /2018/08/06/plane-clipping.html
 image: /assets/images/posts/021/Result.gif
 title: Clipping a Model with a Plane
 ---

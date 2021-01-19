@@ -1,5 +1,7 @@
 ---
 date: "2018-07-15T00:00:00Z"
+aliases:
+  - /2018/07/15/postprocessing-outlines.html
 image: /assets/images/posts/019/Result.gif
 title: Outlines via Postprocessing
 ---

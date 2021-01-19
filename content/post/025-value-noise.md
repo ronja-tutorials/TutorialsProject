@@ -1,6 +1,7 @@
 ---
 date: "2018-09-08T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/09/08/value-noise.html
 image: /assets/images/posts/025/Result.gif
 title: Value Noise
 ---

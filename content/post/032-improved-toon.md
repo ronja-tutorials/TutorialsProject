@@ -1,6 +1,7 @@
 ---
 date: "2018-10-27T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/10/27/improved-toon.html
 image: /assets/images/posts/032/CompleteToon.png
 title: Improved Toon Light
 ---

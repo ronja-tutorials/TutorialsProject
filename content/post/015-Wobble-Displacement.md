@@ -1,7 +1,9 @@
 ---
 date: "2018-06-16T00:00:00Z"
+aliases:
+  - //2018/06/16/Wobble-Displacement.html
 image: /assets/images/posts/015/Result.gif
-title: Wobble Displacement
+title: Vertex Displacement
 ---
 
 ## Summary

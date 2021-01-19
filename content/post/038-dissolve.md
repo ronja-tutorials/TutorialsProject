@@ -1,6 +1,7 @@
 ---
 date: "2018-12-15T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/12/15/dissolve.html
 image: /assets/images/posts/038/Result.gif
 title: Texture Dissolve
 ---
@@ -38,7 +39,7 @@ float dissolve = tex2D(_DissolveTex, i.uv_DissolveTex).r;
 o.Albedo = dissolve;
 ```
 
-The dissolve texture I'm using is a perlin texture I baked via the [material baking tool]({{< ref "post/030-baking_shaders" >}}) I explained in a previous tutorial.
+The dissolve texture I'm using is a perlin texture I baked via the [material baking tool]({{< ref "post/030-baking-shaders" >}}) I explained in a previous tutorial.
 
 ![](/assets/images/posts/038/DissolvePattern.png)
 

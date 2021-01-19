@@ -1,6 +1,7 @@
 ---
 date: "2019-08-15T00:00:00Z"
-hidden: false
+aliases:
+  - /2019/08/15/spheretracing-shading.html
 image: /assets/images/posts/044/Result.png
 title: Spheretracing with Shading
 ---

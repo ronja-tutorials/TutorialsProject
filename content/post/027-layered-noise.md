@@ -1,6 +1,7 @@
 ---
 date: "2018-09-22T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/09/22/layered-noise.html
 image: /assets/images/posts/027/Result.gif
 title: Layered Noise
 ---
@@ -121,7 +122,7 @@ float sampleLayeredNoise(float3 value){
 
 ## Special Use Case
 
-Another thing noise is used for frequently is as a heightmap. For that we simply read the noise in the vertex shader instead of the fragment shader and add it to our vertex. In this part I will reference an [earlier tutorial about displacement]({{< ref "post/015-Wobble-Displacement" >}}), so if you have problems with this part I recommend reading this one first.
+Another thing noise is used for frequently is as a heightmap. For that we simply read the noise in the vertex shader instead of the fragment shader and add it to our vertex. In this part I will reference an [earlier tutorial about displacement]({{< ref "post/015-wobble-displacement" >}}), so if you have problems with this part I recommend reading this one first.
 
 We first change our surface definition to include a vertex function as well as generate a custom shadow pass based on that `#pragma surface surf Standard fullforwardshadows vertex:vert addshadow`. Then we fill that new vertex function. Unity doesn't pass us a world position automatically if we write a custom vertex function, but we can calculate it ourselved my simply multiplying the object to world matrix with the local vertex position. After sampling the noise like we're used to we add it to the vertex position in the up(Y) axis. Because we're not dealing with colors anymore I'm also going to add a amplitude variable which will allow us to set the strength of the noise. We'll simply multiply the noise with the amplitude before applying it.
 

@@ -1,6 +1,7 @@
 ---
 date: "2018-10-13T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/10/13/baking_shaders.html
 image: /assets/images/posts/030/MagicEditor.png
 title: Baking Shaders into Textures
 ---

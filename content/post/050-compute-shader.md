@@ -1,5 +1,7 @@
 ---
 date: "2020-07-26T00:00:00Z"
+aliases:
+  - /2020/07/26/compute-shader.html
 image: /assets/images/posts/050/result.gif
 title: Compute Shader
 ---

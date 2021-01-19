@@ -1,6 +1,7 @@
 ---
 date: "2018-11-17T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/11/17/2d-sdf-combination.html
 image: /assets/images/posts/035/Result.gif
 title: 2D SDF Combination
 ---

@@ -1,6 +1,7 @@
 ---
 date: "2019-01-20T00:00:00Z"
-hidden: false
+aliases:
+  - /2019/01/20/screenspace-texture.html
 image: /assets/images/posts/039/Result.gif
 title: Screenspace Textures
 ---

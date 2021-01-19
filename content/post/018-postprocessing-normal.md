@@ -1,5 +1,7 @@
 ---
 date: "2018-07-08T00:00:00Z"
+aliases:
+  - /2018/07/08/postprocessing-normal.html
 image: /assets/images/posts/018/Result.png
 title: Postprocessing with Normal Texture
 ---

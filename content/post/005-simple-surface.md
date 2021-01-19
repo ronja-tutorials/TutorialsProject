@@ -1,5 +1,7 @@
 ---
 date: "2018-03-30T00:00:00Z"
+aliases:
+  - /2018/03/30/simple-surface.html
 image: /assets/images/posts/005/Result.png
 title: Surface Shader Basics
 ---

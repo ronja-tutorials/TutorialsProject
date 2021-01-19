@@ -1,5 +1,7 @@
 ---
 date: "2018-04-06T00:00:00Z"
+aliases:
+  - /2018/04/06/simple-transparency.html
 image: /assets/images/posts/006/SemitransparentCube.png
 title: Basic Transparency
 ---

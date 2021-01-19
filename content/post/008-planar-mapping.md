@@ -1,5 +1,7 @@
 ---
 date: "2018-04-23T00:00:00Z"
+aliases:
+  - /2018/04/23/planar-mapping.html
 image: /assets/images/posts/008/Result.png
 title: Planar Mapping
 ---

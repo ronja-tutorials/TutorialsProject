@@ -1,5 +1,7 @@
 ---
 date: "2018-04-13T00:00:00Z"
+aliases:
+  - /2018/04/13/sprite-shaders.html
 image: /assets/images/posts/007/Result.png
 title: Sprite Shaders
 ---

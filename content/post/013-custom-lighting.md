@@ -1,5 +1,7 @@
 ---
 date: "2018-06-02T00:00:00Z"
+aliases:
+  - /2018/06/02/custom-lighting.html
 image: /assets/images/posts/013/Result.png
 title: Custom Lighting
 ---

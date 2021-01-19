@@ -1,6 +1,7 @@
 ---
 date: "2018-11-24T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/11/24/sdf-space-manipulation.html
 image: /assets/images/posts/036/Result.gif
 title: 2D SDF Space Manipulation
 ---

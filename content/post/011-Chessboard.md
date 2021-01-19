@@ -1,5 +1,7 @@
 ---
 date: "2018-05-18T00:00:00Z"
+aliases:
+  - //2018/05/18/Chessboard.html
 image: /assets/images/posts/011/Result.png
 title: Checkerboard Pattern
 ---

@@ -1,5 +1,7 @@
 ---
 date: "2018-09-02T00:00:00Z"
+aliases:
+  - /2018/09/02/white-noise.html
 image: /assets/images/posts/024/Result.png
 title: White Noise
 ---

@@ -1,5 +1,7 @@
 ---
 date: "2018-03-21T00:00:00Z"
+aliases:
+  - /2018/03/21/hlsl.html
 image: /assets/images/posts/002/LanguageAreas.png
 title: HLSL
 ---
@@ -83,7 +85,7 @@ instance.variable = 3.14;
 instance.otherVariable = float2(3, 1.4);
 ```
 
-Variables we declare can either be inside of a function, in which case they can only be accessed by other parts of that function or be outside of functions in which case
+Variables we declare can either be inside of a function, in which case they can only be accessed by other parts of that function that come *later* than the variable declaration(like in most programming languages) or be outside of functions in which case they can be accessed from all functions in the shader, no matter the order (but its common to declare them at the top, above the function to easily find them).
 
 ## Functions
 

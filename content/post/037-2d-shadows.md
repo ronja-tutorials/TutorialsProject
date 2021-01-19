@@ -1,6 +1,7 @@
 ---
 date: "2018-12-01T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/12/01/2d-shadows.html
 image: /assets/images/posts/037/Result.gif
 title: 2D SDF Shadows
 ---

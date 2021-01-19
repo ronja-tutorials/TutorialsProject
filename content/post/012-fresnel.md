@@ -1,5 +1,7 @@
 ---
 date: "2018-05-26T00:00:00Z"
+aliases:
+  - /2018/05/26/fresnel.html
 image: /assets/images/posts/012/Result.jpg
 title: Fresnel
 ---

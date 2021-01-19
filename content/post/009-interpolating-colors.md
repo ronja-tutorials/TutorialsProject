@@ -1,5 +1,7 @@
 ---
 date: "2018-05-03T00:00:00Z"
+aliases:
+  - /2018/05/03/interpolating-colors.html
 image: /assets/images/posts/009/Result.png
 title: Color Interpolation
 ---

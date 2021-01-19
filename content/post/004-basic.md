@@ -1,5 +1,7 @@
 ---
 date: "2018-03-23T00:00:00Z"
+aliases:
+  - /2018/03/23/basic.html
 image: /assets/images/posts/004/Result.png
 title: Basic Shader
 ---

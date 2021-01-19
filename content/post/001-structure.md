@@ -1,5 +1,7 @@
 ---
 date: "2018-03-20T00:00:00Z"
+aliases:
+  - /2018/03/20/structure.html
 image: /assets/images/posts/001/pipeline.png
 title: Structure
 ---

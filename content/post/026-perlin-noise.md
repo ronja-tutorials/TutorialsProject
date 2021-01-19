@@ -1,6 +1,7 @@
 ---
 date: "2018-09-15T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/09/15/perlin-noise.html
 image: /assets/images/posts/026/Result.gif
 title: Perlin Noise
 ---

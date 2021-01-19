@@ -1,5 +1,7 @@
 ---
 date: "2018-08-18T00:00:00Z"
+aliases:
+  - /2018/08/18/stencil-buffers.html
 image: /assets/images/posts/022/Result.gif
 title: Stencil Buffers
 ---

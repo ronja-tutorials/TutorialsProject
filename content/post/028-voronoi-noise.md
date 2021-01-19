@@ -1,6 +1,7 @@
 ---
 date: "2018-09-29T00:00:00Z"
-hidden: false
+aliases:
+  - /2018/09/29/voronoi-noise.html
 image: /assets/images/posts/028/Result.gif
 title: Voronoi Noise
 ---

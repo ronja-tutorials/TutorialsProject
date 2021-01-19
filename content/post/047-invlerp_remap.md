@@ -1,5 +1,7 @@
 ---
 date: "2020-01-08T00:00:00Z"
+aliases:
+  - /2020/01/08/invlerp_remap.html
 image: /assets/images/posts/047/result.png
 title: Inverse Lerp and Remap
 ---
