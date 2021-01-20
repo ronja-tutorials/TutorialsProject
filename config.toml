@@ -18,3 +18,7 @@ assetDir = "static"
     noClasses = true
     style = "colorful"
     tabWidth = 2
+
+
+[params]
+	custom_css = ["css/main.css"]
