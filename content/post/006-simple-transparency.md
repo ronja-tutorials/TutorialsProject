@@ -10,7 +10,7 @@ title: Basic Transparency
 
 In addition to just painting color onto the screen, we can also preserve some of the color that was on the screen previously, making the object seem see-through. I’ll explain how we can archieve this effect in a basic shader without lighting.
 
-To understand how to implement transparency, I recommend you know [the basics of writing shaders]({{ site.baseurl }}/basics.html), in this tutorial I'll start with the result of the [tutorial for implementing textures]({{< ref "post/004-basic" >}}).
+To understand how to implement transparency, I recommend you know [the basics of writing shaders]( {{<ref "basics.html">}}), in this tutorial I'll start with the result of the [tutorial for implementing textures]({{< ref "post/004-basic" >}}).
 
 ![Result](/assets/images/posts/006/SemitransparentCube.png)
 

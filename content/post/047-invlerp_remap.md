@@ -12,7 +12,7 @@ In a [previous tutorial]({{< ref "post/009-interpolating-colors" >}}) I explaine
 
 ## Example Shader
 
-The base shader is pretty barebones, a little more complex than [a completely unlit one](/basics.html). I decided to write the custom functions in a separate include file which I named Interpolation.cginc, but you can just as well copy-paste the functions into your main shader file. As the "blending variable" I used the y component of the UV coordinates so it's immediately visible what the function does over a gradient from 0 to 1.
+The base shader is pretty barebones, a little more complex than [a completely unlit one]({{< ref "basics" >}}). I decided to write the custom functions in a separate include file which I named Interpolation.cginc, but you can just as well copy-paste the functions into your main shader file. As the "blending variable" I used the y component of the UV coordinates so it's immediately visible what the function does over a gradient from 0 to 1.
 
 A shader version for a regular linear interpolation looks like this:
 

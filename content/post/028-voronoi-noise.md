@@ -7,7 +7,7 @@ title: Voronoi Noise
 ---
 
 ## Summary
-Another form of noise is voronoi noise. For voronoi noise we need a bunch of points, then we generate a pattern based on which point is the closest. This specific implementation of voronoi noise will work based on cells just like most of the previous noise types we explored, this makes it relatively cheap and easy to repeat. To understand this tutorial I recommend you to have at least understood [the basics of shaders in unity](/basics.html) and how to [generate random values in shaders]({{< ref "post/024-white-noise" >}}).
+Another form of noise is voronoi noise. For voronoi noise we need a bunch of points, then we generate a pattern based on which point is the closest. This specific implementation of voronoi noise will work based on cells just like most of the previous noise types we explored, this makes it relatively cheap and easy to repeat. To understand this tutorial I recommend you to have at least understood [the basics of shaders in unity]({{< ref "basics" >}}) and how to [generate random values in shaders]({{< ref "post/024-white-noise" >}}).
 
 ![](/assets/images/posts/028/Result.gif)
 

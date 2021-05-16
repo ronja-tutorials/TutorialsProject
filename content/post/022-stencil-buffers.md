@@ -12,7 +12,7 @@ The depth buffer helps us compare depths of objects to ensure they occlude each 
 
 The stencil buffer is also used by unity internally for the deferred graphics pipeline, so if you do deferred rendering, some limitations apply. For those limitations and other more indepth information on how to use the stencil buffer in unity you can read here: <https://docs.unity3d.com/Manual/SL-Stencil.html>.
 
-This tutorial will go into some of the basics of the stencil buffer and show read and write from it. We will start with the [basic surface shader]({{< ref "post/005-simple-surface" >}})) but it works just as well with all other types of shaders including unlit and postprocessing ones. In any case you should understand [basics shaders](/basics.html) before getting into manipulating stencil buffers.
+This tutorial will go into some of the basics of the stencil buffer and show read and write from it. We will start with the [basic surface shader]({{< ref "post/005-simple-surface" >}})) but it works just as well with all other types of shaders including unlit and postprocessing ones. In any case you should understand [basics shaders]({{< ref "basics" >}}) before getting into manipulating stencil buffers.
 
 ![](/assets/images/posts/022/Result.gif)
 
@@ -84,7 +84,7 @@ Stencil{
 
 To make real use from our shader which reads from the stencil buffer, we'll write a second one which reads from it. This second shader will not write to the screen itself and will render before the first shader, so we make sure the stencil buffer already has the correct values written to it when we read from it.
 
-For this shader we start with a basic unlit shader, like in [the basics](/basics.html) because it's so simple and we don't need much. For it to not render to the screen at all and just manipulate the stencil buffer we'll add a few other small detail to it though.
+For this shader we start with a basic unlit shader, like in [the basics]({{< ref "post/004-basic" >}}) because it's so simple and we don't need much. For it to not render to the screen at all and just manipulate the stencil buffer we'll add a few other small detail to it though.
 
 First we let the fragment shader just return 0, because we don't care about the return value anyways. Then we set the blending to `Zero One`, which means that the the color that is returned by the shader will be completely ignored and the color that was rendered before will be preserved completely. Another change to make the shader not render is that we'll tell it to not write to the Z buffer. Otherwise it would occlude objects behind it and because we want to see other things though the surface we don't want that at all. And the last change is to ensure the material renders before the materials which might read from the stencil buffer: We change the queue from `geometry` to `geomety-1` which puts it earlier in the render queue.
 

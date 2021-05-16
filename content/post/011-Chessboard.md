@@ -10,7 +10,7 @@ title: Checkerboard Pattern
 
 For me, one of the most interresting things to do with shaders is procedural images. To get started with that, we’re going to create a simple Checkerboard pattern.
 
-This tutorial will build on the [simple shader with only properties](/basics.html), but as always, you can also use the technique to generate colors in more complex shaders.
+This tutorial will build on the [simple shader with only properties]({{< ref "basics" >}}), but as always, you can also use the technique to generate colors in more complex shaders.
 
 ![Result of the tutorial](/assets/images/posts/011/Result.png)
 

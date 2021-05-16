@@ -10,7 +10,7 @@ title: Polygon Clipping
 
 Of course everything we render so far is made of polygons, but someone asked me how to clip a polygon shape based on a list of points in a shader so I’ll explain how to do that now. I will explain how to do that with a single shader pass in a fragment shader, a different way would be to actually generate triangles based on your polygon and use stencil buffers to clip, but I won’t explain that in this tutorial.
 
-Because this tutorial explains a simple technique that doesn’t do that much with fancy graphics I will explain it in a unlit shader, but it will work the same way in surface shaders. The base for this tutorial will be my simple shader with properties, so you should know how to do that before starting [this tutorial](/basics.html)
+Because this tutorial explains a simple technique that doesn’t do that much with fancy graphics I will explain it in a unlit shader, but it will work the same way in surface shaders. The base for this tutorial will be my simple shader with properties, so you should know how to do that before starting [this tutorial]({{< ref "basics" >}})
 
 ![Result](/assets/images/posts/014/Result.gif)
 

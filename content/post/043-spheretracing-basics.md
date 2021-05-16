@@ -8,7 +8,7 @@ title: Spheretracing Basics
 
 Raytracing is a huge topic and one that seems scary and unapproachable for many. One specific kind of raytracing we can do with signed distance fields which I have explored in the 2d space in previous tutorials is called spheretracing. In this first tutorial we'll just trace the silouette of a sphere, but in future tutorials I'll give examples how to make more complex shapes and do lighting.
 
-As the base of the shader we'll use a [basic unlit shader](/basics.html), so you can do this tutorial when you're fairly new to shaders. If you do struggle with some of the concepts of signed distance fields though, have a look into [my tutorial about 2d signed distance fields]({{< ref "post/034-2d-sdf-basics" >}}).
+As the base of the shader we'll use a [basic unlit shader]({{< ref "post/004-basic" >}}), so you can do this tutorial when you're fairly new to shaders. If you do struggle with some of the concepts of signed distance fields though, have a look into [my tutorial about 2d signed distance fields]({{< ref "post/034-2d-sdf-basics" >}}).
 
 ## The theory
 
@@ -183,8 +183,6 @@ Shader "Tutorial/042_SphereTracingBasics"{
         Tags{ "RenderType"="Opaque" "Queue"="Geometry" "DisableBatching"="True"}
 
         Pass{
-            ZWrite Off
-
             CGPROGRAM
             #include "UnityCG.cginc"
 

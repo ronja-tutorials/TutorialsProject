@@ -6,13 +6,13 @@ image: /assets/images/posts/036/Result.gif
 title: 2D SDF Space Manipulation
 ---
 
-When using polygon assets we can only draw one object at a time (ignoring stuff like batching and instancing), but when working with signed distance fields we aren't bound by the same limitations, if two positions have the same coordinate, the signed distance functions will return the same value and you can get multiple shapes with one calculation. To learn how to transform the space we use to generate signed distance fields I recommend you understand how to [create shapes with signed distance functions]({{ site.baseurl }}{% post_url 2018-11-10-2d-sdf-basics%}) and [combine sdf shapes]({{ site.baseurl }}{% post_url 2018-11-17-2d-sdf-combination%}).
+When using polygon assets we can only draw one object at a time (ignoring stuff like batching and instancing), but when working with signed distance fields we aren't bound by the same limitations, if two positions have the same coordinate, the signed distance functions will return the same value and you can get multiple shapes with one calculation. To learn how to transform the space we use to generate signed distance fields I recommend you understand how to [create shapes with signed distance functions]({{< ref "post/034-2d-sdf-basics" >}}) and [combine sdf shapes]({{< ref "post/035-2d-sdf-combination" >}}).
 
 ![](/assets/images/posts/036/Result.gif)
 
 ## Setup
 
-For this tutorial I'll modify a union between a square and a circle, but you can use it on any shape you want. It's similar to the setup for the [previous tutorial]({{ site.baseurl }}{% post_url 2018-11-17-2d-sdf-combination%}).
+For this tutorial I'll modify a union between a square and a circle, but you can use it on any shape you want. It's similar to the setup for the [previous tutorial]({{< ref "post/035-2d-sdf-combination" >}}).
 
 Important here is that the part we will modify is before we use the position to generate shapes.
 

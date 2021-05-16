@@ -16,7 +16,7 @@ To follow this tutorial, it’s best to know how [surface shaders work]({{< ref 
 
 ## Define Plane
 
-We start by creating a new C# script which will define the plane we use later and pass it to the shader. It has a material as a public variable which we will pass the plane to.
+We start by creating a new C# script which will define the plane we use later and pass it to the shader. It has a material as a public variable which we will pass the plane to. We'll also give the class the `[ExecuteAlways]` attribute which will ensure the script will also work in the edit mode. I'd recommend you think about your use-case and whether this makes sense for you to add, without it the script will still update while the game is running.
 
 In the Update Method we create a new variable of the type Plane which unity already has. We pass it the the normal of the plane and a point on the plane. We will use the up vector of the transform the script is on as the normal and the position of the transform as the point on the plane.
 
@@ -25,10 +25,9 @@ Then we create a new 4d vector and put the normal of the new plane in the first 
 Then we pass this new vector to the shader so we can use it there.
 
 ```cs
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[ExecuteAlways]
 public class ClippingPlane : MonoBehaviour {
     //material we pass the values to
     public Material mat;

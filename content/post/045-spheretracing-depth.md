@@ -16,10 +16,8 @@ lacking. In this tutorial I want to show you how to make volumetric
 rendering work with the depth buffer just as you expect it to.
 
 This tutorial starts with the code of the [shaded spheretracing
- tutorial]({{ site.baseurl }}{% post_url
-2019-08-15-spheretracing-shading %}) and you should at least understand
-[spheretracing basics]({{ site.baseurl }}{% post_url
-2019-06-21-spheretracing-basics %}) before you try to understand it.
+ tutorial]({{< ref "post/044-spheretracing-shading" >}}) and you should at least understand
+[spheretracing basics]({{< ref "post/043-spheretracing-basics" >}}) before you try to understand it.
 
 ![](/assets/images/posts/045/Result.png)
 

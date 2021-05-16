@@ -116,7 +116,7 @@ For this to word it's important to set up your river mesh the correct way! The c
 
 ![](/assets/images/posts/033/RiverUnwrap.gif)
 
-For the specs texture, I did a cutoff on a perlin noise and baked that into a texture via my [material baking tool]({{ site.baseurl }}{% post_url 2018-10-13-baking-shaders%}). Here is the texture:
+For the specs texture, I did a cutoff on a perlin noise and baked that into a texture via my [material baking tool]({{< ref "post/030-baking-shaders" >}}). Here is the texture:
 
 ![](/assets/images/posts/033/RiverSpecs1.png)
 

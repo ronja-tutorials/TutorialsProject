@@ -6,7 +6,7 @@ image: /assets/images/posts/037/Result.gif
 title: 2D SDF Shadows
 ---
 
-Now that we know the basics on how to combine signed distance functions, we can use them to do cool stuff with them. In this tutorial we'll use them to render 2d soft shadows. If you haven't read my previous tutorials about signed distance fields yet, I highly recommend you do that first, starting at the [tutorial about how to create simple shapes]({{ site.baseurl }}{% post_url 2018-11-10-2d-sdf-basics%}).
+Now that we know the basics on how to combine signed distance functions, we can use them to do cool stuff with them. In this tutorial we'll use them to render 2d soft shadows. If you haven't read my previous tutorials about signed distance fields yet, I highly recommend you do that first, starting at the [tutorial about how to create simple shapes]({{< ref "post/034-2d-sdf-basics" >}}).
 
 ![](/assets/images/posts/037/Result.gif)
 
@@ -147,7 +147,7 @@ float traceShadows(float2 position, float2 lightPosition){
 
 To use the function, we call it in the fragment function with the pixel position and the light position. Then we can multiply the result with any color to tint it in the lights color.
 
-I used the technique described in [the first tutorial I made about signed distance fields]({{ site.baseurl }}{% post_url 2018-11-10-2d-sdf-basics%}#hard-shape) to also visualise the geometry. Then I simply added the shadows and the geometry. We can use a simple add operation here instead of doing a linear interpolation or similar because the shape color is black everywhere where there's no shape and the shadow color is black everywhere where there is a shape.
+I used the technique described in [the first tutorial I made about signed distance fields]({{< ref "post/034-2d-sdf-basics#hard-shape" >}}) to also visualise the geometry. Then I simply added the shadows and the geometry. We can use a simple add operation here instead of doing a linear interpolation or similar because the shape color is black everywhere where there's no shape and the shadow color is black everywhere where there is a shape.
 
 fixed4 frag(v2f i) : SV_TARGET{
     float2 position = i.worldPos.xz;
