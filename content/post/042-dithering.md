@@ -20,8 +20,8 @@ When doing those calculations we can easily get the screen size from the x and y
 
 Here are the 4x4 and 8x8 versions of the dither texture I used:
 
-<img src="/assets/images/posts/042/BayerDither4x4.png" alt="" class="pixelated"/>
-<img src="/assets/images/posts/042/BayerDither8x8.png" alt="" class="pixelated"/>
+![](/assets/images/posts/042/BayerDither4x4.png)
+![](/assets/images/posts/042/BayerDither8x8.png)
 
 It's important to disable compression completely in unity, otherwise it will mess with your textures and it will look bad (the textures are so tiny that compression wouldn't make much of a difference anyways). Which texture you use doesn't matter that much, the 8x8 texture gives you similar results in small areas and leads to less banding with slowly changing values, so if you're not sure use the bigger one.
 
